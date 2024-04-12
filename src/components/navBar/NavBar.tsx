@@ -20,6 +20,7 @@ function Navbar() {
               <div className='hover:underline'>Cadastrar tema</div>
               <div className='hover:underline'>Perfil</div>
               <div className='hover:underline'>Sair</div>
+              <div className='hover:underline'></div>
             </div>
           </div>
         </div>
