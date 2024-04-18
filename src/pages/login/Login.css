@@ -1,8 +1,16 @@
 .fundoLogin {
-    background-image: url(../../assets/login.jpg);
+    background-image: url(../../assets/Login.svg);
     background-repeat: no-repeat;
     min-height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
+  }
+
+  label, p {
+    color: black;
+  }
+
+  input {
+    background-color: white;
   }
