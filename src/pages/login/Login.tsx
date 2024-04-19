@@ -8,7 +8,7 @@ import UsuarioLogin from '../../models/UsuarioLogin';
 import { RotatingLines } from 'react-loader-spinner';
 
 function Login() {
-  const navigate = useNavigate();
+  let navigate = useNavigate();
 
   const [usuarioLogin, setUsuarioLogin] = useState<UsuarioLogin>(
     {} as UsuarioLogin
@@ -80,7 +80,7 @@ function login(e: ChangeEvent<HTMLFormElement>) {
 
           <p>
             Ainda não tem uma conta?{' '}
-            <Link to="/cadastro" className="text-indigo-800 hover:not-underline">
+            <Link to="/cadastro" className="text-indigo-800 hover:underline">
               Cadastre-se
             </Link>
           </p>

@@ -11,7 +11,7 @@ const Home = () => {
             <h2 className="text-orange-200	 text-5xl  m-4">Home</h2>
             <div>
                 <button type='submit'
-                    className='hover:underline mx-4'
+                    className='hover:no-underline mx-4'
                     onClick={() => { navigate('/login') }}>
                     Login useNavigate
                 </button>

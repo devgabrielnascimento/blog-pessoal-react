@@ -2,7 +2,7 @@ export default interface UsuarioLogin {
     id: number;
     nome: string;
     usuario: string;
-    foto: string;
+    foto: "";
     senha: string;
     token: string;
   }
