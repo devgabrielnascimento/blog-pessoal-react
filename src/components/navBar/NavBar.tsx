@@ -27,6 +27,10 @@ function Navbar() {
               <Link to='/temas' className='hover:underline'>Temas</Link>
               <Link to='/cadastroTema' className='hover:underline'>Cadastrar tema</Link>
               <Link to='/perfil' className='hover:underline'>Perfil</Link>
+              <div className='row-span-2'><div className='w-2/3 rounded-full border-stone-300 border-spacing-2 border-2'>
+              <img src={usuario?.foto} className='h-12 rounded-full' alt="" />
+              </div><p>Meu Perfil</p></div>
+              
               <Link to='' onClick={logout} className='hover:underline'>Sair</Link>
             </div>
           </div>

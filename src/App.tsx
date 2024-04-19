@@ -11,7 +11,7 @@ import FormularioTema from './components/temas/formularioTema/FormularioTema';
 import DeletarTema from './components/temas/deletarTema/DeletarTema';
 import ListaPostagens from './components/postagens/listaPostagens/ListaPostagens';
 import FormularioPostagem from './components/postagens/formularioPostagem/FormularioPostagem';
-import DeletarPostagem from './components/postagens/deletarPostagem/deletarPostagem';
+import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
 
 function App() {
   return (
